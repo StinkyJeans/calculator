@@ -1,7 +1,7 @@
 body {
     margin-top: 270px;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #EEF5FF;
 }
 
 .calculator {
@@ -27,7 +27,8 @@ input[type="text"] {
 .buttons-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 input[type="button"] {
@@ -61,5 +62,5 @@ input[type="button"]:hover {
 .button-row-modulo{
     display: flex;
     margin-bottom: 10px;
-    margin-left:260px ; 
+    margin-left:255px ; 
 }
