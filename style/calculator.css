@@ -1,36 +1,65 @@
 body {
+    margin-top: 270px;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
+
 .calculator {
-    width: 200px;
+    width: 300px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #FFF7F1;
+    border: 2px solid black; 
+    border-radius: 15px; 
+    background: linear-gradient(to bottom, #B5C0D0, #CCD3CA, #F5E8DD, #EED3D9); 
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); 
 }
-input[type="text"] {
-    width: 100%;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
 
+input[type="text"] {
+    width: 265px;
+    margin-bottom: 15px; 
+    padding: 15px;
+    border: 2px solid black; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    color: #333; 
 }
+
 .buttons-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 10px; 
 }
+
 input[type="button"] {
     width: 23%;
-    padding: 10px;
-    padding-right: 15px;
+    padding: 15px;
+    padding-right: 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px; 
     cursor: pointer;
+    font-size: 18px; 
+    background: linear-gradient(to bottom, #B5C0D0, #CCD3CA, #F5E8DD, #EED3D9); 
+    color: #333; 
+    transition: background-color 0.3s ease; 
 }
-.operators {
-    width: 10%;
 
+input[type="button"]:hover {
+    background: linear-gradient(to bottom, #9EAEBF, #B6BEB7, #F0D1BF, #E1BFC8); 
+}
+
+.operators input[type="button"]{
+    background: linear-gradient(to bottom, #8DA0B1, #A3ADB6, #D9D2CB, #D0B8A3); 
+    border: none; 
+   
+}
+
+.operators input[type="button"]:hover {
+    background: linear-gradient(to bottom, #758295, #8B979C, #CABFAF, #BEA88E); 
+    
+}
+
+.button-row-modulo{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left:260px ; 
 }
